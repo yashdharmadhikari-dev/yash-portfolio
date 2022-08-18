@@ -1,7 +1,7 @@
 ### Hey there 👋, My name is ```Yash```
 I'm Yash from India, and i like to work on android projects. I like to contribute on projects which are socially beneficial. I enjoy learning new languages and frameworks. Technology always fascinates me.
 
-- 🔭 I’m currently working on ```**'FlatOMate'**``` 
+- 🔭 I’m currently working on ```'FlatOMate'``` 
 - 🌱 I’m currently learning Everyting  
 - 👯 I’m looking to collaborate on Open Source Projects 
 - 🤔 I’m looking for help with learning Flutter 

@@ -1,8 +1,8 @@
 ### Hey there 👋, My name is ```Yash```
 I'm Yash from India, and i like to work on android projects. I like to contribute on projects which are socially beneficial. I enjoy learning new languages and frameworks. Technology always fascinates me.
 
-- 🔭 I’m currently working on ```'Video Summary Using AI'``` 
-- 🌱 I’m currently learning Image Processing 
+- 🔭 I’m currently working on ```'Gen-AI Projects'``` 
+- 🌱 I’m currently learning langchain 
 - 👯 I’m looking to collaborate on Open Source Projects 
 - ⚡ Fun fact: I like to swim 
 - 📫 How to reach me: Just Click on any emoji below 

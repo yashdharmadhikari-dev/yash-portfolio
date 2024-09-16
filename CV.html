@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto PDF Download</title>
+  <script>
+        // When the CV link is clicked, trigger download of the PDF
+        document.getElementById('cv-link').addEventListener('click', function(event) {
+            event.preventDefault(); // Prevent the default link action
+            
+            // Create an invisible link element to download the PDF
+            const link = document.createElement('a');
+            link.href = 'https://github.com/yashdharmadhikari-dev/yash-portfolio/cv.pdf'; // Replace with the correct URL to your cv.pdf
+            link.download = 'cv.pdf'; // Specify the name of the file to be downloaded
+            document.body.appendChild(link);
+            link.click(); // Trigger the download
+            document.body.removeChild(link); // Clean up the DOM
+        });
+    </script>
+</head>
+</html>

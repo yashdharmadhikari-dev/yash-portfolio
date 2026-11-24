@@ -1,71 +1,200 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yash Dharmadhikari | Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yash Dharmadhikari — Engineer</title>
+<meta name="description" content="Yash Dharmadhikari: engineer who builds things when something bugs him. AI agents at TCS, games, apps and research.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:#0E0E10;text-decoration:none}a:hover{color:#2F5BFF}
+*{box-sizing:border-box}
+</style>
+<style>html{scroll-behavior:smooth}button:focus-visible,a:focus-visible{outline:2px solid #2F5BFF;outline-offset:2px}</style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3HFEE5QZC6"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-3HFEE5QZC6');
 </script>
-
-  
+</head>
 <body>
-  <!-- Header with Navigation -->
-  <header>
-    <h1>Yash Dharmadhikari</h1>
-    <nav>
-      <ul>
-        <li><a href="https://yashdharmadhikari-dev.github.io/yash-portfolio/cv.pdf" download="cv.pdf">CV</a> </li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+<div style="background:#FFFFFF;color:#0E0E10;font-family:Inter,system-ui,sans-serif">
 
-  <!-- Main content with Profile Picture and Introduction -->
-  <main>
-    <div class="profile-section">
-      <img src="Yash-Dharmadhikari.png" alt="Profile Picture" class="profile-pic">
-      <div class="intro-text">  
-        <h2>Welcome to my Portfolio</h2>
-        <p>
-          Hi! I'm <strong>Yash Dharmadhikari</strong>, a <strong>dedicated and results-driven Computer Engineering student</strong> at Don Bosco Institute of Technology, Mumbai, with a keen focus on <strong>Cybersecurity, Web Development, Game Design,</strong> and <strong>AI technologies</strong>. My academic journey, coupled with hands-on project experience, has shaped me into a versatile developer with a passion for solving complex problems through innovative and scalable solutions.
-      </p>
-  
-      <p>
-          Throughout my career, I have successfully developed <strong>advanced AI models</strong>, <strong>mobile applications</strong>, and <strong>cybersecurity frameworks</strong>, delivering solutions that are not only efficient but also cutting-edge. My experience extends to <strong>game development using Unity</strong>, where I leverage creativity and technical expertise to build immersive and dynamic experiences.
-      </p>
-  
-      <p>
-          This portfolio is a reflection of my <strong>relentless pursuit of knowledge</strong> and my commitment to pushing the boundaries of technology. It showcases my <strong>technical proficiency</strong>, <strong>attention to detail</strong>, and the hard work that goes into every project I undertake.
-      </p>
-  
-      <p>
-          Whether it’s designing intuitive user interfaces, developing robust back-end systems, or ensuring the highest standards of data security, I consistently strive to deliver <strong>impactful results</strong>.
-      </p>
-  
-      <p>
-          With a strong foundation in both theory and practice, I am always eager to <strong>learn</strong> and apply <strong>new technologies</strong> to create solutions that drive <strong>meaningful change</strong>.
-      </p>
-      </div>
-    </div>
-  </main>
-  
- 
-<footer>
-   <p class="footer-text">&copy; 2024 Developed by Yash Dharmadhikari</p>
-    <a href="https://www.linkedin.com/in/yash-dharmadhikari-340baa229/" target="_blank">LinkedIn</a> |
-    <a href="https://github.com/yashdharmadhikari-dev" target="_blank">GitHub</a>
-  </footer>
+<header style="position:sticky;top:0;z-index:5;background:rgba(255,255,255,0.94);border-bottom:1px solid #ECEDF0">
+<nav style="max-width:1120px;margin:0 auto;padding:14px 24px;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between">
+<a href="#top" style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:20px">Yash<span style="color:#2F5BFF">.</span></a>
+<div style="display:flex;flex-wrap:wrap;gap:24px;font-size:15px">
+<a href="#now" style="color:#4A4F57">Now</a>
+<a href="#built" style="color:#4A4F57">Things I've built</a>
+<a href="#journey" style="color:#4A4F57">Journey</a>
+<a href="#beyond" style="color:#4A4F57">Beyond code</a>
+<a href="#contact" style="color:#4A4F57">Say hi</a>
+</div>
+</nav>
+</header>
+
+<section id="top" style="max-width:1120px;margin:0 auto;padding:88px 24px 72px;display:flex;flex-wrap:wrap;gap:48px;align-items:center">
+<div style="flex:999 1 560px;min-width:0;display:flex;flex-direction:column;gap:24px">
+<p style="margin:0;font-size:18px;color:#4A4F57">Hi, I'm Yash</p>
+<h1 style="margin:0;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(42px,6.4vw,80px);line-height:1.0;letter-spacing:-0.035em">When something bugs me,<br><span style="color:#2F5BFF">I can't help trying to solve it.</span></h1>
+<p style="margin:0;max-width:620px;font-size:19px;line-height:1.6;color:#4A4F57">Couldn't find a flatmate in Mumbai, so I started building Flatomate. Cramming before exams with YouTube on 2x, so I built AI that summarises videos. Saw how hard music apps were for people with disabilities, so I made one you control with your voice. Today I do the same with AI agents at TCS.</p>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<span style="padding:8px 14px;border-radius:999px;background:#F2F3F5;font-size:14px">AI &amp; agents</span>
+<span style="padding:8px 14px;border-radius:999px;background:#F2F3F5;font-size:14px">Game dev</span>
+<span style="padding:8px 14px;border-radius:999px;background:#F2F3F5;font-size:14px">Apps &amp; web</span>
+<span style="padding:8px 14px;border-radius:999px;background:#F2F3F5;font-size:14px">Cybersecurity</span>
+<span style="padding:8px 14px;border-radius:999px;background:#F2F3F5;font-size:14px">Design</span>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px">
+<a href="#built" style="display:inline-flex;align-items:center;min-height:48px;padding:0 24px;border-radius:999px;background:#0E0E10;color:#FFFFFF;font-weight:600">See what I've built</a>
+<a href="#contact" style="display:inline-flex;align-items:center;min-height:48px;padding:0 24px;border-radius:999px;border:1px solid #D5D8DE;font-weight:600">Get in touch</a>
+</div>
+</div>
+<div style="flex:1 1 280px;display:flex;justify-content:center">
+<img src="Yash-Dharmadhikari.png" alt="Portrait of Yash Dharmadhikari" style="width:300px;height:360px;border-radius:28px;object-fit:cover;background:#EEF2FF">
+</div>
+</section>
+
+<section id="now" style="max-width:1120px;margin:0 auto;padding:24px 24px 88px">
+<div style="background:#EEF2FF;border-radius:28px;padding:48px 40px;display:flex;flex-direction:column;gap:20px">
+<div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between">
+<div style="font-size:13px;font-weight:600;letter-spacing:0.06em;color:#2443C7">MY DAY JOB · TCS</div>
+<div style="display:inline-flex;align-items:center;padding:6px 12px;border-radius:999px;background:#FFFFFF;font-size:13px;font-weight:600">TCS AI Friday · Mumbai regional winner</div>
+</div>
+<h2 style="margin:0;font-family:'Space Grotesk',sans-serif;font-size:clamp(34px,5vw,60px);line-height:1.02;letter-spacing:-0.03em">Professional <span style="color:#2F5BFF">agent wrangler.</span></h2>
+<p style="margin:0;max-width:720px;font-size:19px;line-height:1.6;color:#2B2F36">These days I juggle a bunch of AI agents and build the harness that keeps some very powerful LLMs from running off in different directions. Think zookeeper, except the animals write code.</p>
+<div style="display:flex;flex-wrap:wrap;gap:10px">
+<span style="padding:10px 16px;border-radius:999px;background:#FFFFFF;font-size:15px;font-weight:500">Juggling agents</span>
+<span style="padding:10px 16px;border-radius:999px;background:#FFFFFF;font-size:15px;font-weight:500">Building harnesses</span>
+<span style="padding:10px 16px;border-radius:999px;background:#FFFFFF;font-size:15px;font-weight:500">Taming LLMs</span>
+</div>
+<p style="margin:0;font-size:14px;color:#4A4F57">It's internal, so that's all I can say here. Buy me a chai and you'll hear the fun parts.</p>
+</div>
+</section>
+
+<section id="built" style="background:#F7F8FA">
+<div style="max-width:1120px;margin:0 auto;padding:88px 24px;display:flex;flex-direction:column;gap:28px">
+<div style="display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;justify-content:space-between">
+<div style="display:flex;flex-direction:column;gap:8px">
+<h2 style="margin:0;font-family:'Space Grotesk',sans-serif;font-size:clamp(32px,4vw,48px);letter-spacing:-0.02em">Things I've built</h2>
+<p style="margin:0;font-size:17px;color:#4A4F57">Every one of these started with a problem I ran into.</p>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<div id="f" style="display:contents"></div>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px">
+<div id="p" style="display:contents"></div>
+</div>
+</div>
+</section>
+
+<section id="journey" style="max-width:1120px;margin:0 auto;padding:88px 24px;display:flex;flex-direction:column;gap:32px">
+<h2 style="margin:0;font-family:'Space Grotesk',sans-serif;font-size:clamp(32px,4vw,48px);letter-spacing:-0.02em">How I got here</h2>
+<div style="display:flex;flex-direction:column">
+<div id="j" style="display:contents"></div>
+</div>
+</section>
+
+<section id="beyond" style="background:#0E0E10;color:#FFFFFF">
+<div style="max-width:1120px;margin:0 auto;padding:88px 24px;display:flex;flex-direction:column;gap:28px">
+<h2 style="margin:0;font-family:'Space Grotesk',sans-serif;font-size:clamp(32px,4vw,48px);letter-spacing:-0.02em">Beyond code</h2>
+<p style="margin:0;max-width:640px;font-size:17px;line-height:1.6;color:#B9BEC6">I like the people side of engineering as much as the building: helping others ship their first idea, and making things look good while they work.</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px">
+<div id="b" style="display:contents"></div>
+</div>
+</div>
+</section>
+
+<section style="max-width:1120px;margin:0 auto;padding:88px 24px 24px;display:flex;flex-wrap:wrap;gap:20px">
+<div style="flex:1 1 320px;background:#F7F8FA;border-radius:22px;padding:28px;display:flex;flex-direction:column;gap:10px">
+<div style="font-size:13px;font-weight:600;color:#2443C7">OFF THE CLOCK</div>
+<div style="font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:600">Sharpening my DSA, mentoring hackathon teams, and redesigning this site.</div>
+</div>
+<div style="flex:1 1 320px;background:#F7F8FA;border-radius:22px;padding:28px;display:flex;flex-direction:column;gap:12px">
+<div style="font-size:13px;font-weight:600;color:#2443C7">TOOLBOX</div>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<div id="t" style="display:contents"></div>
+</div>
+</div>
+</section>
+
+<section id="contact" style="max-width:1120px;margin:0 auto;padding:72px 24px 96px;display:flex;flex-direction:column;gap:22px;align-items:flex-start">
+<h2 style="margin:0;font-family:'Space Grotesk',sans-serif;font-size:clamp(38px,5.4vw,64px);letter-spacing:-0.03em;line-height:1.05">Got an idea worth building?<br><span style="color:#2F5BFF">Let's talk.</span></h2>
+<a href="mailto:yashworkspaxe@gmail.com" style="font-size:20px;border-bottom:2px solid #2F5BFF;padding-bottom:4px">yashworkspaxe@gmail.com</a>
+<div style="display:flex;flex-wrap:wrap;gap:12px">
+<a href="https://www.linkedin.com/in/yash-dharmadhikari-340baa229/" style="display:inline-flex;align-items:center;min-height:44px;padding:0 20px;border-radius:999px;border:1px solid #D5D8DE;font-weight:600">LinkedIn</a>
+<a href="https://github.com/yashdharmadhikari-dev" style="display:inline-flex;align-items:center;min-height:44px;padding:0 20px;border-radius:999px;border:1px solid #D5D8DE;font-weight:600">GitHub</a>
+<a href="https://doi.org/10.1109/ICACTA58201.2023.10393115" style="display:inline-flex;align-items:center;min-height:44px;padding:0 20px;border-radius:999px;border:1px solid #D5D8DE;font-weight:600">IEEE paper</a>
+<a href="cv.pdf" style="display:inline-flex;align-items:center;min-height:44px;padding:0 20px;border-radius:999px;border:1px solid #D5D8DE;font-weight:600">Download CV</a>
+</div>
+</section>
+
+<footer style="border-top:1px solid #ECEDF0;padding:24px;text-align:center;font-size:13px;color:#5E646D">Designed &amp; built by Yash Dharmadhikari · Mumbai · 2026</footer>
+</div>
+<script>
+const projects = [
+      { cat: 'Research', year: 'Third year', title: 'Videos into summaries', problem: 'Like every engineer, I studied in the last few days, watching YouTube lectures on 2x. What if I could just read the summary?', body: 'A model that watches and listens to a video, then writes a short text summary of it.', note: 'Published at IEEE ICACTA 2023 · 3rd at Innovex 2023' },
+      { cat: 'Apps', year: 'Second year', title: 'Flatomate', problem: 'Moving to Mumbai for college, finding a decent flatmate was harder than finding the flat.', body: 'An app to match students with compatible flatmates near their college.', note: 'Second-year side project' },
+      { cat: 'Apps', year: 'Diploma', title: 'Smart Music Player', problem: 'Music apps are hard to use for people who can’t easily see or tap a screen.', body: 'An Android music player you control entirely with your voice.', note: 'National hackathon runner-up, 500+ participants' },
+      { cat: 'AI', year: '2025–now', title: 'AI teammates for developers', problem: 'Developer teams spend hours on repetitive work, and leaders can’t see where AI is actually helping.', body: 'Agents that help teams plan, code and test, plus a dashboard that shows how they’re used.', note: 'TCS AI Friday · Mumbai regional winner' },
+      { cat: 'AI', year: 'Final year', title: 'A 3D bot you can talk to', problem: 'Chatbots feel like typing into a box, not talking to someone.', body: 'A Unity character powered by generative AI that holds real conversations and reacts to the camera.', note: '1st place, Innovex 2024' },
+      { cat: 'Games', year: '2022–23', title: 'Balloon Popperz', problem: 'We wanted a game friends could play together on one phone.', body: 'A fast local-multiplayer Unity game: pop balloons, dodge bombs, top the score.', note: 'Teknack Gaming Studio' },
+      { cat: 'Web', year: '2024', title: 'Newsroom CMS', problem: 'Writers were losing time on uploads and copy-pasting data instead of writing.', body: 'A publishing system and data tools for a geopolitics site.', note: 'The Geopolitical Forum · +30% publishing speed' },
+      { cat: 'AI', year: '2023', title: 'Reading meters with vision', problem: 'Meter readings were captured by hand and often misread.', body: 'Image cleanup and digit detection that reads electricity meters automatically.', note: 'Sequelstring internship · +60% accuracy' }
+    ];
+    const cats = ['All', 'AI', 'Games', 'Apps', 'Web', 'Research'];
+    
+const D={ journey: [
+        { year: '2018', title: 'Diploma in IT, Government Polytechnic Jalgaon', body: 'Where I wrote my first real programs. Finished with 94.81%.' },
+        { year: '2021', title: 'First hackathon podium', body: 'Runner-up at a national hackathon with a voice-controlled music player.' },
+        { year: '2021', title: 'Computer Engineering at DBIT Mumbai', body: 'Honours in Cybersecurity, plus games, design and way too many side projects.' },
+        { year: '2023', title: 'First research paper', body: 'Co-authored an IEEE paper on AI video summaries. Interned in computer vision.' },
+        { year: '2024', title: 'Won Innovex, shipped for a startup', body: 'Our 3D AI bot took first place; then I built a CMS for The Geopolitical Forum.' },
+        { year: '2025', title: 'Joined TCS', body: 'Building AI agents and developer tools for large engineering teams. Our team won the TCS AI Friday Mumbai regionals.' },
+        { year: '2026', title: 'From participant to host', body: 'Managed the TCS Tech Day AI Hackathon with 45 teams.' }
+      ],
+      beyond: [
+        { big: '20+', text: 'hackathon teams mentored on their first AI builds' },
+        { big: '45', text: 'teams at the TCS Tech Day AI Hackathon I managed' },
+        { big: '8', text: 'designers I led as placement cell design head' },
+        { big: 'GDSC', text: 'design advisor for Google Developer Student Club, DBIT' }
+      ],
+      tools: ['Python', 'C++', 'Java', 'Unity · C#', 'Android', 'Django', 'React', 'LLMs', 'Azure AI', 'AWS', 'PostgreSQL', 'Canva']
+     };
+const on='min-height:44px;padding:0 18px;border-radius:999px;border:1px solid #0E0E10;background:#0E0E10;color:#FFFFFF;font:600 14px Inter,sans-serif;cursor:pointer', off='min-height:44px;padding:0 18px;border-radius:999px;border:1px solid #D5D8DE;background:#FFFFFF;color:#0E0E10;font:500 14px Inter,sans-serif;cursor:pointer';
+let cat='All';
+const esc=x=>String(x);
+function render(){
+  document.getElementById('f').innerHTML=cats.map(l=>{const f={label:l};return `<button data-cat="${f.label}" style="${f.label===cat?on:off}">${f.label}</button>`}).join('');
+  const shown=cat==='All'?projects:projects.filter(p=>p.cat===cat);
+  document.getElementById('p').innerHTML=shown.map(p=>`<article style="background:#FFFFFF;border:1px solid #ECEDF0;border-radius:22px;padding:26px;display:flex;flex-direction:column;gap:12px">
+<div style="display:flex;justify-content:space-between;gap:12px;font-size:13px;color:#5E646D"><span style="padding:4px 10px;border-radius:999px;background:#EEF2FF;color:#2443C7;font-weight:600">${p.cat}</span><span>${p.year}</span></div>
+<h3 style="margin:0;font-family:'Space Grotesk',sans-serif;font-size:21px">${p.title}</h3>
+<p style="margin:0;font-size:15px;line-height:1.55;color:#0E0E10"><span style="font-weight:600;color:#2443C7">The problem: </span>${p.problem}</p>
+<p style="margin:0;font-size:15px;line-height:1.6;color:#4A4F57">${p.body}</p>
+<div style="margin-top:auto;font-size:13px;font-weight:600;color:#0E0E10">${p.note}</div>
+</article>`).join('');
+  document.querySelectorAll('#f button').forEach(b=>b.onclick=()=>{cat=b.dataset.cat;render();});
+}
+document.getElementById('j').innerHTML=D.journey.map(s=>`<div style="display:flex;flex-wrap:wrap;gap:6px 32px;padding:22px 0;border-top:1px solid #ECEDF0">
+<div style="flex:0 0 96px;font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700;color:#2F5BFF">${s.year}</div>
+<div style="flex:1 1 480px;min-width:0;display:flex;flex-direction:column;gap:4px">
+<div style="font-size:18px;font-weight:600">${s.title}</div>
+<div style="font-size:15px;line-height:1.6;color:#4A4F57">${s.body}</div>
+</div>
+</div>`).join('');
+document.getElementById('b').innerHTML=D.beyond.map(b=>`<div style="border:1px solid #2A2D33;border-radius:20px;padding:24px;display:flex;flex-direction:column;gap:8px">
+<div style="font-family:'Space Grotesk',sans-serif;font-size:30px;font-weight:700;color:#8FA8FF">${b.big}</div>
+<div style="font-size:15px;line-height:1.5;color:#D7DAE0">${b.text}</div>
+</div>`).join('');
+document.getElementById('t').innerHTML=D.tools.map(t=>`<span style="padding:6px 12px;border-radius:999px;background:#FFFFFF;border:1px solid #ECEDF0;font-size:14px">${t}</span>`).join('');
+render();
+</script>
 </body>
 </html>
